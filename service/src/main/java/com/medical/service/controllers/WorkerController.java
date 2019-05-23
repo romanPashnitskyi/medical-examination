@@ -29,9 +29,4 @@ public class WorkerController {
         return workerService.findAll();
     }
 
-    @GetMapping(path = {"/{id}/patients/{patientID}"})
-    public Worker findAll(@PathVariable("id") int id,@PathVariable("patientID") int patientID) {
-        return workerService.findWorkerPatient(id,patientID);
-    }
-
 }

@@ -51,8 +51,4 @@ public class WorkerServiceImpl implements WorkerService {
         workerRepositories.deleteById(id);
     }
 
-    @Override
-    public Worker findWorkerPatient(int id, int patientID) {
-        return workerRepositories.findByIdAndPatients_id(id,patientID);
-    }
 }
