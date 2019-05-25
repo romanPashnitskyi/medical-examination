@@ -17,52 +17,56 @@ public class WorkerController {
         this.workerService = workerService;
     }
 
-    @PostMapping(path = {"/new"})
-    public Worker create(@RequestBody Worker worker){
-        return workerService.save(worker);
-    }
-
-    @GetMapping(path = {"/{id}"})
-    public Worker findOne(@PathVariable("id") int id){
-        return workerService.findById(id);
-    }
-
-    @GetMapping(path = {"/find/{name}"})
-    public Set<Worker> findAllByNameContaining(@PathVariable("name") String name){
-        return workerService.findAllByNameContaining(name);
-    }
-
-    @DeleteMapping(path ={"/delete/{id}"})
-    public void delete(@PathVariable("id") int id) {
-        workerService.deleteById(id);
-    }
-
     @GetMapping
     public Set<Worker> findAll() {
         return workerService.findAll();
     }
 
-    @GetMapping(path ={"/howWorkPost"})
-    public void howWorkPost() {
-        create(new Worker("NAzar","asdfadf","1","1","dsfsdf","dsfsdf"));
+    @GetMapping(path = {"/{id}"})
+    public Worker findOne(@PathVariable("id") int id) {
+        return workerService.findById(id);
     }
 
-    @GetMapping(path ={"/howWorkDelete"})
-    public void howWorkDelete() {
-        delete(16);
+    @GetMapping(path = {"/find/{name}"})
+    public Set<Worker> findAllByNameContaining(@PathVariable("name") String name) {
+        if (name.length() < 3) {
+            throw new RuntimeException("The length of the worker's name is too small!");
+        }
+        return workerService.findAllByNameContaining(name);
+    }
+
+    @PostMapping(path = {"/new"})
+    public Worker create(@RequestBody Worker worker) {
+        return workerService.save(worker);
     }
 
     @PutMapping(path = {"/update/{id}"})
     public Worker update(@RequestBody Worker worker, @PathVariable int id) {
         worker.setId(id);
-        return  workerService.save(worker);
+        return workerService.save(worker);
     }
 
-    @GetMapping(path ={"/howWorkUpdate"})
-    public void howWorkUpdate() {
-        Worker worker = workerService.findById(17);
-        worker.setTelephone("380680073283++");
-        update(worker,worker.getId());
+    @DeleteMapping(path = {"/delete/{id}"})
+    public void delete(@PathVariable("id") int id) {
+        workerService.deleteById(id);
     }
+
+
+//    @GetMapping(path ={"/howWorkPost"})
+//    public void howWorkPost() {
+//        create(new Worker("NAzar","asdfadf","1","1","dsfsdf","dsfsdf"));
+//    }
+//
+//    @GetMapping(path ={"/howWorkDelete"})
+//    public void howWorkDelete() {
+//        delete(16);
+//    }
+//
+//    @GetMapping(path ={"/howWorkUpdate"})
+//    public void howWorkUpdate() {
+//        Worker worker = workerService.findById(17);
+//        worker.setTelephone("380680073283++");
+//        update(worker,worker.getId());
+//    }
 
 }

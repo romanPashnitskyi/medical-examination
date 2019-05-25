@@ -50,4 +50,9 @@ public class PatientServiceImpl implements PatientService {
     public void deleteById(Integer id) {
         patientRepositories.deleteById(id);
     }
+
+    @Override
+    public Set<Patient> findAllByNameContaining(String name) {
+        return patientRepositories.findAllByNameContaining(name);
+    }
 }

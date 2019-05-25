@@ -14,6 +14,13 @@ import java.util.Set;
 @Entity(name = "Patient")
 public class Patient{
 
+    public Patient(String name, Date dateOfBirth, int sex, @NonNull Worker worker) {
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.sex = sex;
+        this.worker = worker;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -26,6 +33,7 @@ public class Patient{
 
     private String additionalInformation;
 
+    @Column(nullable = false)
     private int sex;
 
     private String telephone;
