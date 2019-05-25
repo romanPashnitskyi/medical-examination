@@ -51,4 +51,9 @@ public class WorkerServiceImpl implements WorkerService {
         workerRepositories.deleteById(id);
     }
 
+
+    @Override
+    public Set<Worker> findAllByNameContaining(String name) {
+        return workerRepositories.findAllByNameContaining(name);
+    }
 }

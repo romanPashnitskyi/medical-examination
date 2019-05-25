@@ -17,7 +17,18 @@ import java.util.Set;
 @Entity
 public class Worker {
 
+    public Worker(String name, String email, String accessDatabaseType, String accountStatus, String login, String password) {
+        this.name = name;
+        this.email = email;
+        this.accessDatabaseType = accessDatabaseType;
+        this.accountStatus = accountStatus;
+        this.login = login;
+        this.password = password;
+    }
+
     @Id
+    @Setter @Getter
+    @Column(nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
