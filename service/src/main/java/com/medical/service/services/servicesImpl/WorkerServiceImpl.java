@@ -27,13 +27,12 @@ public class WorkerServiceImpl implements WorkerService {
 
     @Override
     public Worker findById(Integer id) {
-        Optional<Worker> workersOptional = workerRepositories.findById(id);
 
-        if (!workersOptional.isPresent()) {
+        if (!workerRepositories.findById(id).isPresent()) {
             throw new RuntimeException("Worker Not Found!");
         }
 
-        return workersOptional.get();
+        return workerRepositories.findById(id).get();
     }
 
     @Override
