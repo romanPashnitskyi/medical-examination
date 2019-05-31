@@ -14,6 +14,7 @@ import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -112,8 +113,18 @@ public class WorkerServiceImplTest {
 
         assertNotNull(workerSet);
 
-//        assertEquals(1, workerSet.size());
+        //**********************************************
+        //assertEquals(1, workerSet.size());
 
         verify(workerRepositories).findAllByNameContaining(anyString());
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void findByIdNotFound(){
+        Worker workerNotFound = workerService.findById(-1);
+
+        assertNull(workerNotFound);
+
+        verify(workerRepositories, times(1)).findById(anyInt());
     }
 }

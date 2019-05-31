@@ -14,6 +14,7 @@ import java.util.Set;
 @Entity(name = "Patient")
 public class Patient{
 
+    @Builder
     public Patient(String name, Date dateOfBirth, int sex, @NonNull Worker worker) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;

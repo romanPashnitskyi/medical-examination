@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246bdc58-ce35-485a-9739-5036ebda31b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/PatientServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/medical/service/model/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/medical/service/model/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/medical/service/controllers/WorkerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/controllers/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/controllers/PatientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/controllers/WorkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/controllers/WorkerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/model/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/model/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/model/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/model/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/repositories/PatientRepositories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/repositories/PatientRepositories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/services/PatientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/services/PatientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/services/servicesImpl/PatientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/services/servicesImpl/PatientServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/medical/service/services/servicesImpl/WorkerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/medical/service/services/servicesImpl/WorkerServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,94 +24,59 @@
     <favorites_list name="service" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.28664497">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="54" column="46" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/repositories/WorkerRepositories.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/WorkerService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="26">
-                  <caret line="8" column="39" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/controllers/WorkerController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#449#450#0" expanded="true" />
-                    <element signature="e#499#500#0" expanded="true" />
-                    <element signature="e#688#689#0" expanded="true" />
-                    <element signature="e#737#738#0" expanded="true" />
-                    <element signature="e#1151#1152#0" expanded="true" />
-                    <element signature="e#1200#1201#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/GrudService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Worker.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/PatientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/PatientServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/controllers/PatientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="60" column="73" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/repositories/PatientRepositories.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/services/PatientService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/PatientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/controllers/PatientController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/medical/service/controllers/WorkerControllerTest.java" />
@@ -152,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/services/WorkerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/medical/service/controllers/WorkerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/PatientServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java" />
       </list>
     </option>
@@ -168,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,43 +163,6 @@
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="servicesImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -249,7 +170,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +224,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkerServiceImplTest">
+  <component name="RunManager" selected="JUnit.All in service (1)">
+    <configuration name="All in service (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceImplTest.findAllByNameContaining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.PatientServiceImplTest" />
+      <option name="METHOD_NAME" value="findAllByNameContaining" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceImplTest.findByIdNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.PatientServiceImplTest" />
+      <option name="METHOD_NAME" value="findByIdNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <extension name="coverage">
@@ -320,70 +288,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.WorkerServiceImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkerServiceImplTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.WorkerServiceImplTest" />
-      <option name="METHOD_NAME" value="deleteById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkerServiceImplTest.findAllByNameContaining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.WorkerServiceImplTest" />
-      <option name="METHOD_NAME" value="findAllByNameContaining" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkerServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.medical.service.services.servicesImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.medical.service.services.servicesImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.medical.service.services.servicesImpl.WorkerServiceImplTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryofophthalmologicexaminationsofpatientsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.medical.service.LibraryofophthalmologicexaminationsofpatientsApplication" />
@@ -393,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in service (1)" />
+        <item itemvalue="JUnit.All in service" />
         <item itemvalue="JUnit.WorkerServiceImplTest" />
-        <item itemvalue="JUnit.WorkerServiceImplTest.findAllByNameContaining" />
-        <item itemvalue="JUnit.WorkerServiceImplTest.save" />
-        <item itemvalue="JUnit.WorkerServiceImplTest.deleteById" />
-        <item itemvalue="JUnit.WorkerServiceImplTest.delete" />
+        <item itemvalue="JUnit.PatientServiceImplTest.findByIdNotFound" />
+        <item itemvalue="JUnit.PatientServiceImplTest.findAllByNameContaining" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +321,8 @@
       <workItem from="1558894621632" duration="7508000" />
       <workItem from="1558941411353" duration="4158000" />
       <workItem from="1558958442885" duration="2000" />
-      <workItem from="1559116659656" duration="2413000" />
+      <workItem from="1559116659656" duration="6251000" />
+      <workItem from="1559281630440" duration="551000" />
     </task>
     <task id="LOCAL-00001" summary="Delete findWorkerPatient methods with all class.">
       <created>1558612266315</created>
@@ -440,43 +345,50 @@
       <option name="project" value="LOCAL" />
       <updated>1558802594527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Posted by mockito test for WorkerService. Add findAllByNameContaining methods for Patient Repositories,Service and Controller. Close #4.">
+      <created>1559119419003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559119419003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorkerServiceImplTest_findAllByNameContaining - 2019.05.29 at 11h 13m 13s.xml">
-      <configuration name="WorkerServiceImplTest.findAllByNameContaining" configurationId="JUnit" />
+    <history-entry file="PatientServiceImplTest - 2019.05.29 at 13h 58m 42s.xml">
+      <configuration name="PatientServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest_delete - 2019.05.29 at 11h 20m 46s.xml">
-      <configuration name="WorkerServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="PatientServiceImplTest_delete - 2019.05.29 at 13h 59m 08s.xml">
+      <configuration name="PatientServiceImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest_deleteById - 2019.05.29 at 11h 21m 53s.xml">
-      <configuration name="WorkerServiceImplTest.deleteById" configurationId="JUnit" />
+    <history-entry file="PatientServiceImplTest_findAllByNameContaining - 2019.05.29 at 14h 00m 20s.xml">
+      <configuration name="PatientServiceImplTest.findAllByNameContaining" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest_save - 2019.05.29 at 11h 28m 34s.xml">
-      <configuration name="WorkerServiceImplTest.save" configurationId="JUnit" />
+    <history-entry file="PatientServiceImplTest_findAllByNameContaining - 2019.05.29 at 14h 00m 52s.xml">
+      <configuration name="PatientServiceImplTest.findAllByNameContaining" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest_save - 2019.05.29 at 11h 29m 42s.xml">
-      <configuration name="WorkerServiceImplTest.save" configurationId="JUnit" />
+    <history-entry file="PatientServiceImplTest_findByIdNotFound - 2019.05.29 at 14h 05m 35s.xml">
+      <configuration name="PatientServiceImplTest.findByIdNotFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest - 2019.05.29 at 11h 30m 21s.xml">
+    <history-entry file="PatientServiceImplTest_findByIdNotFound - 2019.05.29 at 14h 09m 36s.xml">
+      <configuration name="PatientServiceImplTest.findByIdNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientServiceImplTest_findByIdNotFound - 2019.05.29 at 14h 13m 03s.xml">
+      <configuration name="PatientServiceImplTest.findByIdNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientServiceImplTest_findByIdNotFound - 2019.05.29 at 14h 13m 36s.xml">
+      <configuration name="PatientServiceImplTest.findByIdNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerServiceImplTest - 2019.05.29 at 14h 15m 41s.xml">
       <configuration name="WorkerServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerServiceImplTest - 2019.05.29 at 11h 31m 05s.xml">
-      <configuration name="WorkerServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkerServiceImplTest_findAllByNameContaining - 2019.05.29 at 11h 32m 34s.xml">
-      <configuration name="WorkerServiceImplTest.findAllByNameContaining" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkerServiceImplTest_findAllByNameContaining - 2019.05.29 at 11h 34m 46s.xml">
-      <configuration name="WorkerServiceImplTest.findAllByNameContaining" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkerServiceImplTest - 2019.05.29 at 11h 36m 44s.xml">
-      <configuration name="WorkerServiceImplTest" configurationId="JUnit" />
+    <history-entry file="All_in_service - 2019.05.29 at 14h 17m 05s.xml">
+      <configuration name="All in service" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34662000" />
+    <option name="totallyTimeSpent" value="39051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,8 +401,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.1867518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.15722266" />
       <window_info id="Structure" order="1" sideWeight="0.50482315" side_tool="true" weight="0.17797287" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,8 +413,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.14983714" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.35667753" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
@@ -567,7 +480,8 @@
     <MESSAGE value="Delete findWorkerPatient methods with all class." />
     <MESSAGE value="Update HTTP methods in WorkerController and add method who find worker from full or part name." />
     <MESSAGE value="Update HTTP methods in PatientController and add method who find patient from full or part name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update HTTP methods in PatientController and add method who find patient from full or part name." />
+    <MESSAGE value="Posted by mockito test for WorkerService. Add findAllByNameContaining methods for Patient Repositories,Service and Controller. Close #4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Posted by mockito test for WorkerService. Add findAllByNameContaining methods for Patient Repositories,Service and Controller. Close #4." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/controllers/ExaminationController.java">
@@ -591,23 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/controllers/PatientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -620,23 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/PatientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/PatientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -654,16 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/ArgumentMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -671,30 +541,6 @@
           <folding>
             <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1168#1169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/repositories/WorkerRepositories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/WorkerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,10 +561,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/repositories/WorkerRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/WorkerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/WorkerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/PatientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/WorkerServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="210">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/services/servicesImpl/PatientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/medical/service/services/servicesImpl/PatientServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/controllers/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="60" column="73" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/medical/service/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
